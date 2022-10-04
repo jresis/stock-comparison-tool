@@ -1,6 +1,7 @@
-# stock-comparison-tool
+Stock Comparison Tool
 
 Introduction
+
 
 Analysis
 
