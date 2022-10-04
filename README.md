@@ -13,6 +13,11 @@ I started by observing the graphs of the past five years for the stocks in quest
 
 It is worth noting that the date range can be adjusted, but I figured that five years would be an appropriate default setting, as it gives a large sample size but excludes old data that is less relevant.
 
+Then, we can pull some statistics by using the Describe method. Here is an example:
+![Screen Shot 2022-10-04 at 1 25 02 PM](https://user-images.githubusercontent.com/29186496/193885775-d2e61609-872e-45a5-bac9-68da0d4af918.png)
+Here, we are observing data from LLY (Eli Lilly). The mean closing price of the stock for the five-year time frame was about $165, and the standard deviation was about $72. To make comparisons easier, the volatility index I assigned to this would be about 72/165. I divided the standard deviation by the mean because if we just take the raw standard deviation, then expensive stocks would usually appear to be unusually volatile (a 20% change in a stock that was originally $10 is much less than a 20% change in a stock that was originally $500, for example).
+
+LLY's volatility index of about .44 is significantly higher than the S&P 500's volatility index of .20. As a result, investors who are risk-averse may not be as inclined to invest. However, LLY's annual return is incredibly high, averaging over 56% per year since the beginning of the time frame. In addition, LLY was among the few stocks that did not see a sizable drop near the beginning of the Covid-19 era. Overall, despite the large volatility index, LLY has a lot going for it.
 
 ## Takeaways
 
