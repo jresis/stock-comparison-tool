@@ -10,4 +10,4 @@ For this project, I observed statistics from 2017-2022 for three stocks and the 
 
 ## Takeaways
 
-# Future Work
+## Future Work
